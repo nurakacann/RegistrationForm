@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for activate responsive code-->
+    <title>
+        Registration Form
+    </title>
+
+    <style>
+        .formDiv {
+            width: 500px;
+            background-color: rgb(188, 187, 179);
+
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="formDiv">
+            <hr>
+            <form>
+                <table>
+                    <center>
+                        <h1> Registration Form </h1>
+                    </center>
+                    <tr><br>
+                        <td>
+                            Name: <span><input type="text" placeholder="Write your name"> </span>
+                            <p> </p>
+                        </td>
+                        <td>
+                            Surname: <span> <input type="text" placeholder="Write your surname"></span>
+                            <p> </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email adress:
+                            <p> </p>
+                        </td>
+                        <td>
+                            <input type="email" placeholder="Write your email">
+                            <p> </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password:
+                            <p></p>
+                        </td>
+                        <td>
+                            <input type="password">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="manRadio" type="radio" name="genderRadio" value="Man">
+                            <label for="manRadio">Man</label>
+
+                            <input id="womenRadio" type="radio" name="genderRadio" value="Women">
+                            <label for="womenRadio">Women</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p> </p>
+                            Birth date:
+                        </td>
+                        <td>
+                            <p> </p>
+                            <input type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p> </p>
+                            Phone number:
+                        </td>
+                        <td>
+                            <p> </p>
+                            <input type="tel" id="phone" name="phone" placeholder="5*********">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p> </p>
+                            <input type="file">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p> </p>
+                            <input type="submit" value="Submit" style="margin-right: 5px;">
+                            <input type="reset" value="Reset">
+                            <p> </p>
+                        </td>
+
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
